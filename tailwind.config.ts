@@ -57,6 +57,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Bergen Fence custom colors
+        "bergen-green": {
+          DEFAULT: "hsl(var(--bergen-green))",
+          dark: "hsl(var(--bergen-green-dark))",
+          light: "hsl(var(--bergen-green-light))",
+        },
+        "bergen-gray": {
+          light: "hsl(var(--bergen-gray-light))",
+          DEFAULT: "hsl(var(--bergen-gray))",
+          dark: "hsl(var(--bergen-gray-dark))",
+        },
+        "bergen-hero": "hsl(var(--bergen-hero-start))",
+      },
+      fontFamily: {
+        lucida: ['"Lucida Sans"', "sans-serif"],
+        "open-sans": ['"Open Sans"', "sans-serif"],
+        francois: ['"Francois One"', "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
