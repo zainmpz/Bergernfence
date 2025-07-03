@@ -57,23 +57,31 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Bergen Fence custom colors
-        "bergen-green": {
-          DEFAULT: "hsl(var(--bergen-green))",
-          dark: "hsl(var(--bergen-green-dark))",
-          light: "hsl(var(--bergen-green-light))",
+        // Modern Bergen Fence colors
+        "modern-green": {
+          50: "hsl(var(--modern-green-50))",
+          100: "hsl(var(--modern-green-100))",
+          500: "hsl(var(--modern-green-500))",
+          600: "hsl(var(--modern-green-600))",
+          700: "hsl(var(--modern-green-700))",
+          900: "hsl(var(--modern-green-900))",
         },
-        "bergen-gray": {
-          light: "hsl(var(--bergen-gray-light))",
-          DEFAULT: "hsl(var(--bergen-gray))",
-          dark: "hsl(var(--bergen-gray-dark))",
+        "modern-gray": {
+          50: "hsl(var(--modern-gray-50))",
+          100: "hsl(var(--modern-gray-100))",
+          200: "hsl(var(--modern-gray-200))",
+          600: "hsl(var(--modern-gray-600))",
+          800: "hsl(var(--modern-gray-800))",
+          900: "hsl(var(--modern-gray-900))",
         },
-        "bergen-hero": "hsl(var(--bergen-hero-start))",
+        glass: "hsla(var(--glass))",
       },
       fontFamily: {
-        lucida: ['"Lucida Sans"', "sans-serif"],
-        "open-sans": ['"Open Sans"', "sans-serif"],
-        francois: ['"Francois One"', "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        space: ['"Space Grotesk"', "sans-serif"],
+      },
+      backdropBlur: {
+        xs: "2px",
       },
       borderRadius: {
         lg: "var(--radius)",
